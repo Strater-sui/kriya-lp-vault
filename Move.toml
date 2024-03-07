@@ -1,0 +1,11 @@
+[package]
+name = "KriyaLpVault"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+KriyaDEX = { local = "./dependencies/kriya" }
+VoloSui = { local = "./dependencies/volo" }
+
+[addresses]
+kriya_lp_vault = "0x0"
