@@ -22,7 +22,7 @@ module kriya_lp_vault::kriya_vsui_lp {
             9,
             b"KVLP",
             b"KRIYA-VSUI-LP",
-            b"fungible token of vSUI/SUI LP on KriyaDEX",
+            b"Fungible token of vSUI/SUI LP on KriyaDEX",
             std::option::none(),
             ctx,
         );
