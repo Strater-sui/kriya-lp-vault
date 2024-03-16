@@ -1,11 +1,14 @@
 [package]
 name = "KriyaLpVault"
 version = "0.0.1"
+published-at = "0x39fd055cafde75d35c6222e2c75e5b90726c15e7dccee8b85cd718f256cc913d"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
+SuiSystem = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-system", rev = "framework/mainnet" }
 KriyaDEX = { local = "./dependencies/kriya" }
 VoloSui = { local = "./dependencies/volo" }
 
 [addresses]
-kriya_lp_vault = "0x0"
+# kriya_lp_vault = "0x0"
+kriya_lp_vault = "0x39fd055cafde75d35c6222e2c75e5b90726c15e7dccee8b85cd718f256cc913d"
