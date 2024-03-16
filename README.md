@@ -7,7 +7,7 @@ Convert KriyaDEX LP to fungible token
 ```
 
 ## Shared Objects
-KriyaLpVault
+KriyaLpVault, `77988568`
 ```
 0x85e8d4868c1029bb1abe7664fc53691de54a4842a2ea1ed1fef52afc7018775e
 ```
