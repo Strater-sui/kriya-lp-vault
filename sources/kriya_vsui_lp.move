@@ -78,4 +78,12 @@ module kriya_lp_vault::kriya_vsui_lp {
             ctx,
         )
     }
+
+    public fun update_icon_url(
+        vault: &KriyaLpVault,
+        metadata: &mut coin::CoinMetadata<KRIYA_VSUI_LP>,
+        url: std::ascii::String,
+    ) {
+        coin::update_icon_url(&vault.treasury_cap, metadata, url);
+    }
 }

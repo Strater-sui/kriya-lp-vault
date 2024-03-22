@@ -1,7 +1,8 @@
 [package]
 name = "KriyaLpVault"
 version = "0.0.1"
-published-at = "0x39fd055cafde75d35c6222e2c75e5b90726c15e7dccee8b85cd718f256cc913d"
+# published-at = "0x39fd055cafde75d35c6222e2c75e5b90726c15e7dccee8b85cd718f256cc913d"
+published-at = "0x7d218f1bdf4abe4790bc54f724483950fa5881239942686b2f60918f94f82da8"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
